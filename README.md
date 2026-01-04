@@ -5,12 +5,16 @@ Offline Japanese text-to-speech (TTS) on Android for **Codename One** apps, powe
 > **Scope**
 >
 > The initial objective was to publish this work as a reusable **CN1Lib**.
+>
 > **Current state:** the repository provides **two reference projects** (Codename One + Android Studio) that demonstrate a working Japanese text-to-speech demo.
+>
 > Packaging as a turn‑key CN1Lib is intentionally left for a future version.
+>
 > The Android Studio project has been tested and works on both physical devices and the Android Studio emulator.
+>
 > *japanese-tts-app-debug.apk* allows for immediate testing.
 
-![Screenshot](japanese-tts.jpg)
+<img src="japanese-tts.jpg" alt="Screenshot" width="400" />
 
 ## Repository contents
 
