@@ -21,9 +21,11 @@ Offline Japanese text-to-speech (TTS) on Android for **Codename One** apps, powe
 This repository is organized around two complementary projects:
 
 1. **Codename One reference project**
+
    The “source of truth”: Java-side API, demo UI, Android native implementation, and packaged assets (dictionary + voice).
 
 2. **Android Studio reference project (transcompiled from the Codename One project)**
+
    Exported from Codename One as Android sources and then opened in Android Studio for debugging.
 
 **Important:** the Android Studio project is **derived output**. Any functional change should be made in the Codename One project and then re‑transcompiled.
