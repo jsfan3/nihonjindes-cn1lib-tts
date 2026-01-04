@@ -1,5 +1,7 @@
 # Nihonjindes Japanese TTS - Android implementation for Codename One
 
+by [Francesco Galgani](https://www.informatica-libera.net/)
+
 Offline Japanese text-to-speech (TTS) on Android for **Codename One** apps, powered by **Open JTalk** with the **Mei (Normal)** voice.
 
 > **Scope**
