@@ -1,0 +1,93 @@
+apply plugin: 'com.android.application'
+
+buildscript {
+    repositories {
+      google()
+     jcenter()
+     mavenLocal()
+      mavenCentral()
+      google()
+     mavenLocal()
+      mavenCentral()
+    }
+    dependencies {
+classpath 'com.android.tools.build:gradle:8.1.0'
+    }
+}
+
+android {
+
+    compileSdkVersion 36
+
+    dexOptions {
+        preDexLibraries = false
+        incremental false
+        jumboMode = true
+        javaMaxHeapSize "3g"
+    }
+    defaultConfig {
+        applicationId "net.informaticalibera.japanesetts"
+        minSdkVersion 19
+        targetSdkVersion 36
+        versionCode 100
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    sourceSets {
+        main {
+            aidl.srcDirs = ['src/main/java']
+        }
+    }
+
+    lintOptions {
+        lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+        }
+    }
+    signingConfigs {
+        release {
+            storeFile file("keyStore")
+            storePassword "password"
+            keyAlias "androidKey"
+            keyPassword "password"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            signingConfig signingConfigs.release
+        }
+    }
+buildFeatures {
+        aidl true
+    }
+namespace 'net.informaticalibera.japanesetts'
+}
+
+repositories {
+    google()
+    jcenter()
+      google()
+     mavenLocal()
+      mavenCentral()
+    flatDir{
+              dirs 'libs'
+       }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+     implementation 'androidx.appcompat:appcompat:1.6.1'
+
+ implementation 'androidx.multidex:multidex:2.0.1'
+}
