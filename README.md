@@ -159,6 +159,6 @@ See **ATTRIBUTION.md** for licenses and notices.
 
 ## License
 
-All original work in this repository is released under **CC0 1.0 Universal**.
+All original work of [Francesco Galgani](https://www.informatica-libera.net/) in this repository is released under **CC0 1.0 Universal**.
 Third‑party components are licensed under their respective licenses; see **ATTRIBUTION.md**.
 
