@@ -1,6 +1,6 @@
 # Attribution and third‑party notices
 
-This repository contains original work released under **CC0 1.0 Universal** (see `LICENSE`).
+This repository contains original work of [Francesco Galgani](https://www.informatica-libera.net/) released under **CC0 1.0 Universal** (see `LICENSE`).
 It also depends on and/or redistributes third‑party components, each governed by its own license.
 
 The version pins and SHA‑256 checksums below match the values used during development.
