@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTheme" parent="android:Theme.Black">
+        <item name="cn1Style">@style/CN1.EditText.Style</item>
+    </style>
+    <attr name="cn1Style" format="reference" />
+    <style name="CN1.EditText.Style" parent="@android:style/Widget.EditText">
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+</resources>

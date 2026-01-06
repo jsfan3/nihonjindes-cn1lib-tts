@@ -1,0 +1,6 @@
+# Commands executed locally to install the CN1Lib
+
+cd ~/AAR/nihonjindes-cn1lib-tts/cn1lib-example-usage/myapp
+mvn cn1:install-cn1lib -Dfile=/home/francesco/AAR/nihonjindes-cn1lib-tts/japanese-offline-tts-hq.cn1lib
+
+# MyApp.java is an example of how to use the APIs exposed by CN1Lib.

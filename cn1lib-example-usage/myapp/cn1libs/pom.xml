@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>  <artifactId>myapp</artifactId>
+        <groupId>com.example.myapp</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.example.myapp</groupId>
+    <artifactId>myapp-cn1libs</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>myapp-cn1libs</name>
+    <profiles>
+    <!-- Profile injected by install-cn1lib goal for japanese-offline-tts-hq cn1lib -->
+<profile>
+  <id>japanese-offline-tts-hq.cn1lib-cn1lib</id>
+  <activation>
+    <file><exists>${basedir}/japanese-offline-tts-hq/pom.xml</exists></file>
+  </activation>  <modules><module>japanese-offline-tts-hq</module></modules>
+</profile>
+<profile>
+  <id>japanese-offline-tts-hq.cn1lib-cn1lib-fromroot</id>
+  <activation>
+    <file><exists>${basedir}/cn1libs/japanese-offline-tts-hq/pom.xml</exists></file>
+  </activation>  <modules><module>japanese-offline-tts-hq</module></modules>
+</profile>
+
+</profiles>
+</project>

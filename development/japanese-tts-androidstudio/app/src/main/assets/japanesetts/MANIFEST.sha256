@@ -1,0 +1,14 @@
+888ee94c5a8a7a26d24ab3f1b7155441351954fd51ea06b4a2f78bd742492b2f  ./assets/dict/open_jtalk_dic_utf_8-1.11/char.bin
+f4eca42ebd930e2c6e57fca58319d989bebcd1510cb7714b149c50f5425135ea  ./assets/dict/open_jtalk_dic_utf_8-1.11/COPYING
+db1adac8a7f9e5854cd82ea044c85115249206c8181b9d88cf92ae2ee5e87b84  ./assets/dict/open_jtalk_dic_utf_8-1.11/left-id.def
+62fd16b4f64c851d5dc352ef0d5740c5fc83ddc7c203b2b0b1fc5271969a14ce  ./assets/dict/open_jtalk_dic_utf_8-1.11/matrix.bin
+3460aa742053085af47cdfc889a1e0e6f557e89b406e501ba81c9ccc286de0c7  ./assets/dict/open_jtalk_dic_utf_8-1.11/pos-id.def
+7f7c8dfbfe24092e8a149a9b6e0a3a7f1c2cf37d6c3dc29d1cccc6c004da9c1c  ./assets/dict/open_jtalk_dic_utf_8-1.11/rewrite.def
+db1adac8a7f9e5854cd82ea044c85115249206c8181b9d88cf92ae2ee5e87b84  ./assets/dict/open_jtalk_dic_utf_8-1.11/right-id.def
+ca57d9029691a70a5dfb99afc2844180256161d7130da65b1a867510e129b9a6  ./assets/dict/open_jtalk_dic_utf_8-1.11/sys.dic
+ce97851ecda075914fa3ffe7294a1ab34ee4f6d56ba6bf9197d74143b5dffbfe  ./assets/dict/open_jtalk_dic_utf_8-1.11/unk.dic
+b19e8e5ddef4d9d9559d654f395818e2bb3c0bbdbbca533f96086de21ac5db2b  ./assets/voice/mei/mei_normal.htsvoice
+d0d0e53807b260453dbb675c8c35b1cbf9e94a239418e970f74633a0af4a9c4b  ./bin/android/arm64-v8a/open_jtalk
+9725a701817b19f2e4c55ac34f6819e1eaccc840b68b75e9b5adb9d82849d3fe  ./bin/android/armeabi-v7a/open_jtalk
+3683554bf3e3991a9c2e39e504bfba2ba8faef908189a98a48ddae6d8e3987a8  ./bin/android/x86_64/open_jtalk
+3009f8ffe39848356b0d1231eee1828c3ce276299868167962c440125051c9c3  ./MANIFEST.sha256

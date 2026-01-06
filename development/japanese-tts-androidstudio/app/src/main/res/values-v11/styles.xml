@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="cn1Style">@style/CN1.EditText.Style</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTitleSize">0dp</item>
+    </style>
+    <style name="CN1.EditText.Style" parent="@android:style/Widget.EditText">
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+</resources>

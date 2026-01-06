@@ -1,0 +1,21 @@
+# You may ignore these instructions if you are using CN1Lib.
+# These commands were only used during development.
+
+cd japanese-tts-androidstudio
+
+# Find the folder containing the .so files in the CN1 project (robust, not hardcoded).
+SRC_DIR="$(find ~/ProjectForCN1Lib -type d -path '*/jniLibs' \
+  -exec test -f '{}/arm64-v8a/libopen_jtalk.so' \; -print | head -n 1)"
+
+echo "SRC_DIR=$SRC_DIR"
+test -n "$SRC_DIR" || { echo "ERROR: I cannot find jniLibs with libopen_jtalk.so"; exit 1; }
+
+# Destination specified by Gradle/Android Studio
+DST_DIR="app/src/main/jniLibs"
+mkdir -p "$DST_DIR"
+
+# Copy all available ABIs (arm64-v8a, armeabi-v7a, x86_64)
+cp -av "$SRC_DIR"/* "$DST_DIR"/
+
+ls -la app/src/main/jniLibs/arm64-v8a/
+
