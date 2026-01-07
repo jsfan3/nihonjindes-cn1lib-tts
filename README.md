@@ -6,6 +6,10 @@ Offline Japanese text-to-speech (TTS) on Android for **Codename One** apps, powe
 
 For immediate testing, you can try `japanese-offline-tts-hq-debug.apk`.
 
+Supported ABIs: arm64-v8a, armeabi-v7a, and x86_64 (it supports both actual devices and the Android Studio emulator).
+
+*minSdkVersion 21 (Android 5+)*
+
 ## Usage
 
 In general, you can install this library from the Codename One settings GUI. However, if you would like to install the CN1Lib manually, you can use this command:
@@ -39,13 +43,17 @@ You can compare it to this online demo:
 
 The online demo and the voice produced with this CN1Lib are identical on my testing device (Samsung Galaxy A20e, Android 11).
 
-## Notes
+## Known Issues (to be fixed in the next release)
 
-minSdkVersion 21 (Android 5+)
+* The volume is a little lower than it should be.
 
-## Known Issues
+* Although the demo does not impose any limits on text length, the text should still be relatively short.
 
-It appears that the "Defaults" button must be pressed twice for it to work. I have not investigated this issue further.
+* The input text cannot contain line breaks, such as /n, because any text following an /n will be ignored. Therefore, in text sent to CN1Lib, each line break must be replaced with a space.
+
+* In the demo, WAV files accumulate. In a real app, however, they should be deleted after playback.
+
+* It appears that the "Defaults" button must be pressed twice for it to work. I have not investigated this issue further.
 
 ## License
 
