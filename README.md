@@ -55,6 +55,8 @@ The online demo and the voice produced with this CN1Lib are identical on my test
 
 * It appears that the "Defaults" button must be pressed twice for it to work. I have not investigated this issue further.
 
+* The two sliders in the demo should be improved (https://www.reddit.com/r/cn1/comments/1q6a4up/slider/).
+
 ## License
 
 All original work of [Francesco Galgani](https://www.informatica-libera.net/) in this repository is released under **CC0 1.0 Universal**.
